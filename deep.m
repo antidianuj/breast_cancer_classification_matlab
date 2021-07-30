@@ -65,7 +65,7 @@ ypred_dnn = classify(dnn, X);
 figure;
 plotconfusion(ypred_dnn, Y);
 
-% Plot Attributes
+
 title("Deep (5-layer) neural network results");
 xlabel("True"); ylabel("Prediction");
 xticklabels(["Benign", "Malignant"]);
